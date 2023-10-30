@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("https://i0.wp.com/lanzaroteinformation.co.uk/wp-content/uploads/2018/06/Quiz.jpg?fit=1000%2C684&ssl=1");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+#timer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+#ques {
+    background-color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+label {
+    background-color: white;
+    font-size: 30px;
+}
+input[type="radio"] {
+    font-size: 70px;
+}
+button {
+    border-radius: 10px 50px;
+    background-color: aqua; 
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+button:disabled {
+    background-color: rgb(247, 100, 100);
+    cursor: not-allowed;
+}
+button:hover {
+    background-color:rgb(106, 172, 106);
+}
